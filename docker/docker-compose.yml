@@ -1,0 +1,29 @@
+version: '3'
+services: 
+  todoback:
+    image: docker.io/library/todobackend:latest
+    ports:
+      - "3001:3001"
+    networks:
+      - app-network
+  todofront:
+    image: docker.io/library/todofrontend:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_API_HOST=todoback
+    networks:
+      - app-network
+    depends_on:
+      - todoback
+  todotests:
+    image: docker.io/library/todotests:latest
+    environment:
+      - FRONT_HOST=todofront
+    networks:
+      - app-network
+    depends_on:
+      - todofront
+      - todoback
+networks:
+  app-network:
