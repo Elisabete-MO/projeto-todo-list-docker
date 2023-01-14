@@ -4,4 +4,3 @@ EXPOSE 3001
 ADD node_modules.tar.gz node_modules.tar.gz
 COPY ./ ./
 CMD ["npm", "start"]
-
