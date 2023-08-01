@@ -1,13 +1,21 @@
 # :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+Data para entrega no prazo regular: 20/01/2023 14:00
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+O conhecimento dos comandos dockers no CLI - Interface de linha de comando;
+A habilidade de criar um contêiner Docker para uma aplicação de front-end;
+A habilidade de criar um contêiner Docker para uma aplicação de back-end;
+A habilidade de criar um contêiner Docker para uma aplicação de testes;
+A habilidade de orquestrar os três contêineres utilizando o Docker compose.
+O que devo desenvolver?
+Você irá “conteinerizar” as aplicações de frontend, backend e testes, criar uma conexão entre elas e orquestrar seu funcionamento! 🐋
+Neste projeto você irá:
+
+Conteinerizar aplicações;
+Criar uma conexão entre elas;
+Orquestrar seu funcionamento.
+Temos uma aplicação full-stack neste repositório: um aplicativo de tarefas! Esta aplicação precisa ser conteinerizada para funcionar. Você deverá desenvolver os arquivos de configuração para cada frente específica: Front-end, Back-end e, no nosso caso, para um aplicativo de teste que valida se as aplicações estão se comunicando.
+
+Você deverá criar as imagens para as aplicações e configurar essas imagens com o docker-compose.
+
+Para isto, você irá utilizar uma série de comandos do docker com diferentes níveis de complexidade.
